@@ -37,8 +37,8 @@ export default function SignUp() {
       <div className={styles.container}>
         <h1 className={styles.title}>Sign Up</h1>
         <div className={styles.form}>
-          <input className={styles.input} type="text" name="username" placeholder="username" value={state.username} onChange={handleChange} />
-          <input className={styles.input} type="text" name="email" placeholder="email" value={state.email} onChange={handleChange} />
+          <input className={styles.input} type="text" name="username" placeholder="username" value={state.username} onChange={handleChange} autoComplete="off" />
+          <input className={styles.input} type="text" name="email" placeholder="email" value={state.email} onChange={handleChange} autoComplete="off" />
           <input className={styles.input} type="password" name="password" placeholder="password" value={state.password} onChange={handleChange} />
           <button className={styles.btn} onClick={handleSubmit}>Submit</button>
         </div>
