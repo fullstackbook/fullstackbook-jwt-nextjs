@@ -1,0 +1,12 @@
+.layout {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
